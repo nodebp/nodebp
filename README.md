@@ -13,7 +13,7 @@ That's what our [meetup page](http://www.meetup.com/nodejsbp/) is for.
 
 Presentations
 -----------
-We want collect slides and code from our presenters.
+We collect slides and code from our presenters.
 
 ### Structure of presos
 
