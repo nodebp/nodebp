@@ -15,6 +15,10 @@ Presentations
 -----------
 We collect slides and code from our presenters.
 
+Previous meetups
+-----------
+[2013 November](https://github.com/nodejsbp/nodejsbp/blob/master/2013-Nov.md)
+
 ### Structure of presos
 
 - First two preso should be about the same topic, while the first is for beginners and second one is about the hard parts.
