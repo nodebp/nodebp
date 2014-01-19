@@ -2,52 +2,90 @@
 <html>
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css"
-          href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css"></link>
-    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="icon" type="image/png" href="logo.png">
     <title>Nodebp</title>
 </head>
 <body>
 
-<nav class="navbar navbar-default" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-        <a class="navbar-brand" href="#">Nodebp</a>
+<div class="navbar navbar-default" role="navigation">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">Nodebp</a>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li><a href="http://www.meetup.com/nodebp/">Meetup</a></li>
+                <li><a href="https://github.com/nodebp">GitHub</a></li>
+                <li><a href="http://www.youtube.com/user/nodebp">Youtube</a></li>
+                <li><a href="https://twitter.com/nodebp">Twitter</a></li>
+            </ul>
+        </div>
+        <!--/.nav-collapse -->
     </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <ul class="nav navbar-nav">
-            <li><a href="http://www.meetup.com/nodebp/">Meetup</a></li>
-            <li><a href="https://github.com/nodebp">GitHub</a></li>
-            <li><a href="http://www.youtube.com/user/nodebp">Youtube</a></li>
-            <li><a href="https://twitter.com/nodebp">Twitter</a></li>
-        </ul>
-    </div>
-    <!-- /.navbar-collapse -->
-</nav>
+</div>
 
 <div class="container">
-    <img src="logo.png" class="img-circle" alt="Nodebp logo" width="100px">
-    <div class="page-header">
-        <h1>Win your ticket to MLOC!</h1>
+    <div class="row">
+        <div class="col-lg-12">
+            <img src="logo.png" class="img-circle" alt="Nodebp logo" width="100px">
+
+            <div class="page-header">
+                <h1>Win your ticket to MLOC!</h1>
+            </div>
+            <h3>Intro</h3>
+
+            <p><strong>Connect Four</strong> (also known as <em>Captain's Mistress</em>, <em>Four Up</em>, <em>Plot Four</em>, <em>Find Four</em>, <em>Fourplay</em>, Four in a Row and
+                Four
+                in a Line) is a two-player game in which the players first choose a color and then take turns dropping
+                colored
+                discs from the top into a seven-column, six-row vertically suspended grid. More info at: <a
+                        href="http://en.wikipedia.org/wiki/Connect_Four">http://en.wikipedia.org/wiki/Connect_Four</a></p>
+
+            <h3>Description</h3>
+
+            <p>You should implement the Connect Four game using Node.js streams. After cloning/forking our repo, you will
+                find
+                the the test cases, which your solution must pass. The tests can be run with <code>npm test</code> (you can
+                continuously
+                running by <code>npm test-bg</code>). Please use our template file (<strong>cf.js</strong>) for the implementation.</p>
+
+            <h3>Choosing the winner</h3>
+
+            <p>The shortest code wins (measured in bytes). If there will be two same-length-solution, the submission date
+                will
+                decide who wins. <em>(You can find out more about making your javascript shorter on <a
+                        href="http://www.140byt.es/">140bytes</a>)</em>.
+            </p>
+
+            <h3>Submission</h3>
+
+            <p>Send your solution to <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%69%6E%66%6F%40%6E%6F%64%65%62%70%2E%63%6F%6D">&#105;&#110;&#102;&#111;&#064;&#110;&#111;&#100;&#101;&#098;&#112;&#046;&#099;&#111;&#109;</a>, as a solution.js attachment. Please only use the core stream module.
+                the
+                lesser the file size, the better! <em>(just pass all the tests)</em></p>
+
+            <h3>Deadline</h3>
+
+            <p class="text-info lead">2th, February, 11:59PM </p>
+
+        </div>
     </div>
-    <h3>Intro</h3>
-    <p>Connect Four (also known as Captain's Mistress, Four Up, Plot Four, Find Four, Fourplay, Four in a Row and Four in a Line) is a two-player game in which the players first choose a color and then take turns dropping colored discs from the top into a seven-column, six-row vertically suspended grid. More info at: <a href="http://en.wikipedia.org/wiki/Connect_Four">http://en.wikipedia.org/wiki/Connect_Four</a></p>
-    <h3>Description</h3>
-    <p>You should implement the Connect Four game using Node.js streams. After cloning/forking our repo, you will find the the test cases, which your solution must pass. The tests can be run with `npm test` (you can continuously running by `npm test-bg`). Please use our template file (cf.js) for the implementation.</p>
-    <h3>Choosing the winner</h3>
-    <p>The shortest code wins (measured in bytes). If there will be two same-length-solution, the submission date will decide who wins. (You can find out more about making your javascript shorter on <a href="http://www.140byt.es/">140bytes</a>).</p>
-    <h3>Submission</h3>
-    <p>Send your solution to info@nodebp.com, as a solution.js attachment. Please only use the core stream module.  the lesser the file size, the better! (just pass all the tests)</p>
-    <h3>Deadline</h3>
-    <p>2th, February, 11:59PM </p>
-</div>
-<div style="margin: 100px 0 20px 0; text-align:center;">
-    Nodebp 2014
+
+    <hr/>
+    <footer>
+        <p>Nodebp, 2014</p>
+    </footer>
+    <br/>
 </div>
 
-    
-
+<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 </body>
 </html>
