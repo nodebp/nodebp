@@ -6,6 +6,16 @@
     <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
     <link rel="icon" type="image/png" href="logo.png">
     <title>Nodebp</title>
+
+    <style>
+        .organizers .col-sm-12 {
+            margin-bottom: 10px;
+        }
+
+        .organizers img {
+            margin-right: 5px;
+        }
+    </style>
 </head>
 <body>
 
@@ -45,7 +55,8 @@
             <p>
             <h4>What is MLOC?</h4>
             <blockquote>
-                <a href="http://mloc-js.com/">MLOC.JS</a> 2014 is an international Javascript conference for people interested in the future
+                <a href="http://mloc-js.com/">MLOC.JS</a> 2014 is an international Javascript conference for people
+                interested in the future
                 of the language and the platform, the possibilities of JavaScript on the web and on
                 the server side. For people doing or planning to do big JavaScript projects.
                 And for people would like to see how is it possible to improve JavaScript by making
@@ -65,7 +76,8 @@
 
             <h3>Description</h3>
 
-            <p>You should implement the Connect Four game using Node.js streams. After cloning/forking our <a href="https://github.com/nodebp/mloc-contest">repo</a>, you
+            <p>You should implement the Connect Four game using Node.js streams. After cloning/forking our <a
+                    href="https://github.com/nodebp/mloc-contest">repo</a>, you
                 will
                 find
                 the the test cases, which your solution must pass. The tests can be ran with <code>npm test</code> <em>(
@@ -97,14 +109,15 @@
 
             <h3>Prices</h3>
 
-            <p>The winner gets the MLOC ticket <em>(accommodation, travelling NOT included)</em>, runner-ups will be awarded
-            with WebStorm licences.</p>
+            <p>The winner gets the MLOC ticket <em>(accommodation, travelling NOT included)</em>, runner-ups will be
+                awarded
+                with WebStorm licences.</p>
 
             <h3>Questions</h3>
 
             <p>Please feel free to ask us anything! The preferred way of communication is through our twitter channel:
                 <a href="http://twitter.com/nodebp">@nodebp</a></p>
-             
+
         </div>
 
         <div class="col-lg-12">
@@ -116,25 +129,38 @@
                 JIFASNIF - JavaScript is fun, and so Node is fun.
             </blockquote>
             <h4>Organised by:</h4>
-            <a href="http://twitter.com/oroce" title="Robert Oroszi">
-                <img src="https://s.gravatar.com/avatar/1e81e4ce8029433112b441419d3f431c?s=50" alt="oroce" class="img-circle">
-                Robert Oroszi
-            </a>
-            <a href="http://twitter.com/nthgergo" title="Gergely Nemeth">
-                <img src="https://s.gravatar.com/avatar/29955e7f5ba4bd072e7c0e98e4a788fb?s=50" alt="nthgergo" class="img-circle">
-                Gergely Nemeth
-            </a>
-            <a href="http://twitter.com/slashdotpeter" title="Peter Marton">
-                <img src="https://s.gravatar.com/avatar/1e2275ae49fccaa79d88fa6539492640?s=50" alt="slashdotpeter" class="img-circle">
-                Peter Marton
-            </a>
-            <a href="http://twitter.com/madbence" title="Bence Danyi">
-                <img src="https://s.gravatar.com/avatar/dd14cd2413d2c7c5e02c14df879802b4?s=50" alt="madbence" class="img-circle">
-                Bence Danyi
-            </a>
 
-
-
+            <div class="row organizers">
+                <div class="col-sm-12 col-md-6 col-lg-2">
+                    <a href="http://twitter.com/oroce" title="Robert Oroszi">
+                        <img src="https://s.gravatar.com/avatar/1e81e4ce8029433112b441419d3f431c?s=50" alt="oroce"
+                             class="img-circle">
+                        Robert Oroszi
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-2">
+                    <a href="http://twitter.com/nthgergo" title="Gergely Nemeth">
+                        <img src="https://s.gravatar.com/avatar/29955e7f5ba4bd072e7c0e98e4a788fb?s=50" alt="nthgergo"
+                             class="img-circle">
+                        Gergely Nemeth
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-2">
+                    <a href="http://twitter.com/slashdotpeter" title="Peter Marton">
+                        <img src="https://s.gravatar.com/avatar/1e2275ae49fccaa79d88fa6539492640?s=50"
+                             alt="slashdotpeter"
+                             class="img-circle">
+                        Peter Marton
+                    </a>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-2">
+                    <a href="http://twitter.com/madbence" title="Bence Danyi">
+                        <img src="https://s.gravatar.com/avatar/dd14cd2413d2c7c5e02c14df879802b4?s=50" alt="madbence"
+                             class="img-circle">
+                        Bence Danyi
+                    </a>
+                </div>
+            </div>
         </div>
 
         <div class="col-lg-12">
@@ -158,15 +184,27 @@
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];
-    if(!d.getElementById(id)){js=d.createElement(s);
-    js.id=id;js.src="http://platform.twitter.com/widgets.js";
-    fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+<script>!function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (!d.getElementById(id)) {
+        js = d.createElement(s);
+        js.id = id;
+        js.src = "http://platform.twitter.com/widgets.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }
+}(document, "script", "twitter-wjs");</script>
 <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
     ga('create', 'UA-47284597-1', 'nodebp.com');
     ga('send', 'pageview');
