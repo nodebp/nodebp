@@ -17,11 +17,11 @@ We collect slides and code from our presenters.
 
 Previous meetups
 -----------
-[2014 January](https://github.com/nodebp/nodebp/blob/master/2014-Jan.md)
+[2014 January](https://github.com/nodebp/nodebp/blob/gh-pages/2014-Jan.md)
 
-[2013 December](https://github.com/nodebp/nodebp/blob/master/2013-Dec.md)
+[2013 December](https://github.com/nodebp/nodebp/blob/gh-pages/2013-Dec.md)
 
-[2013 November](https://github.com/nodebp/nodebp/blob/master/2013-Nov.md)
+[2013 November](https://github.com/nodebp/nodebp/blob/gh-pages/2013-Nov.md)
 
 ### Structure of presos
 
