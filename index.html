@@ -1,788 +1,549 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
-    <link rel="icon" type="image/png" href="logo.png">
-    <title>Nodebp</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="icon" type="image/png" href="logo.png">
+  <title>Nodebp</title>
 
-    <style>
-        .organizers .col-sm-12 {
-            margin-bottom: 10px;
-        }
+  <style>
+    .organizers .col-sm-12 {
+      margin-bottom: 10px;
+    }
 
-        .organizers img {
-            margin-right: 5px;
-        }
+    .organizers img {
+      margin-right: 5px;
+    }
 
-        .twitter-follow-button {
-            position: relative;
-            top: 6px;
-        }
+    .twitter-follow-button {
+      position: relative;
+      top: 6px;
+    }
 
-        @media screen and (min-width: 768px) {
-            .nav.navbar-nav {
-                margin-top: 40px;
-            }
-        }
-    </style>
+    @media screen and (min-width: 768px) {
+      .nav.navbar-nav {
+        margin-top: 40px;
+      }
+    }
+  </style>
 </head>
 <body>
 
 <!-- Navigation -->
 <div class="navbar navbar-default" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">
-                <img src="logo.png" class="img-circle" alt="Nodebp logo" width="100px">
-            </a>
-        </div>
-        <div class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
-                <li><a href="http://www.meetup.com/nodebp/">Meetup</a></li>
-                <li><a href="https://github.com/nodebp">GitHub</a></li>
-                <li><a href="http://www.youtube.com/user/nodebp">Youtube</a></li>
-                <li><a href="https://twitter.com/nodebp">Twitter</a></li>
-                <li><a href="https://gitter.im/nodebp/nodeschool">Gitter</a></li>
-            </ul>
-        </div>
-        <!--/.nav-collapse -->
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">
+        <img src="logo.png" class="img-circle" alt="Nodebp logo" width="100px">
+      </a>
     </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="http://www.meetup.com/nodebp/">Meetup</a></li>
+        <li><a href="https://github.com/nodebp">GitHub</a></li>
+        <li><a href="http://www.youtube.com/user/nodebp">Youtube</a></li>
+        <li><a href="https://twitter.com/nodebp">Twitter</a></li>
+        <li><a href="https://gitter.im/nodebp/nodeschool">Gitter</a></li>
+      </ul>
+    </div>
+    <!--/.nav-collapse -->
+  </div>
 </div>
 
 
 <div class="container">
 
-<!-- Alerts -->
-<div class="row">
+  <!-- Alerts -->
+  <div class="row">
     <div class="col-lg-12">
-        <div class="alert alert-info"><strong>Call for Speakers / Inverse call for speakers:</strong>
-            please submit what you want to talk about or what you want to hear about
-            <strong><a href="https://github.com/nodebp/nodebp/issues" target="_blank">here</a></strong>.
-        </div>
+      <div class="alert alert-info"><strong>Call for Speakers / Inverse call for speakers:</strong>
+        please submit what you want to talk about or what you want to hear about
+        <strong><a href="https://github.com/nodebp/nodebp/issues" target="_blank">here</a></strong>.
+      </div>
     </div>
-</div>
+  </div>
 
 
-<!-- Upcoming events -->
-<div class="row">
-    <div class="col-lg-12">
-
-        <!-- Header -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Upcoming events</h2>
-                <hr/>
-            </div>
-        </div>
-
-    </div>
-</div>
-
-<!-- Past events -->
-<div class="row">
+  <!-- Upcoming events -->
+  <div class="row">
     <div class="col-lg-12">
 
-        <!-- Header -->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2>Past events</h2>
-                <hr/>
-            </div>
+      <!-- Header -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Upcoming events</h2>
+          <hr/>
         </div>
+      </div>
 
-        <div class="row">
+      <div class="row">
 
-          <div class="col-lg-12">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <a href="http://www.meetup.com/nodebp/events/220025799/" target="_blank">February, 2015</a>
-
-              </div>
-              <div class="panel-body">
-                <ol>
-                  <li>
-                    ES6 Iterators -
-                    <a href="https://twitter.com/apiguy" title="Freedom Dumlao" target="_blank">(Freedom Dumlao)</a>
-                  </li>
-
-                  <li>
-                    Express and clean architecture -
-                    <a href="http://twitter.com/EggDice" title="Tamas Kokeny" target="_blank">(Tamas Kokeny)</a>
-                  </li>
-
-                  <li>
-                    What is io.js? - 
-                    <a href="http://twitter.com/zsombor_paroczi" title="Zsombor Paroczi" target="_blank">(Zsombor Paroczi)</a>
-                  </li>
-
-                  <li>
-                    NodeSummit Retrospective -
-                    <a href="https://twitter.com/nthgergo" title="Gergely Nemeth" target="_blank">(Gergely Nemeth)</a>
-                  </li>
-                </ol>
-              </div>
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/224608524/" target="_blank">September, 2015</a>
             </div>
-
-          </div>
-
-        </div>
-        <div class="row">
-
-          <div class="col-lg-12">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <a href="http://www.meetup.com/nodebp/events/219292252/" target="_blank">January, 2015</a>
-
-              </div>
-              <div class="panel-body">
-                <ol>
-                  <li>
-                    Node.js Best Practices -
-                    <a href="https://twitter.com/nthgergo" title="Gergely Nemeth" target="_blank">(Gergely Nemeth)</a>
-                    <ul>
-                      <li><a href="https://speakerdeck.com/gergelyke/node-dot-js-best-practices" target="_blank">Slides</a></li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    Quality assured working REST APIs at Lufthansa Systems - Tamas Benke
-                  </li>
-                </ol>
-              </div>
-            </div>
-
           </div>
 
         </div>
 
-        <div class="row">
-
-          <div class="col-lg-12">
-            <!-- One-Shot Nodebots-->
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <a href="http://www.meetup.com/nodebp/events/208743332/" target="_blank">One-Shot Nodebots Workshop</a>
-
-              </div>
-              <div class="panel-body">
-                This time we're doing a small workshop appropriate for anyone who's never tried nodebots
-                before or would like some help getting going. Veterans are welcome of
-                course and encouraged to come and help!
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-12">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <a href="http://www.meetup.com/nodebp/events/216529672/" target="_blank">November, 2014</a>
-
-              </div>
-              <div class="panel-body">
-                <ol>
-                  <li>
-                    What can you do with your own NPM registry? -
-                    <a href="https://twitter.com/_nec" title="Szabolcs Toth" target="_blank">(Szabolcs Toth)</a>
-                  </li>
-
-                  <li>
-                    Introduction to pull-streams - 
-                    <a href="https://twitter.com/dominictarr" title="Dominic Tarr" target="_blank">(Dominic Tarr)</a>
-                  </li>
-                </ol>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-
-        <div class="row">
-
-            <div class="col-lg-12">
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/210203192/" target="_blank">October, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>
-                                Devops tools to monitor a polytunnel (Robert Oroszi)
-                            </li>
-                            <li>
-                                AsyncListener (Bence Danyi)
-                            </li>
-                            <li>
-                                NodeBots introduction (Gergely Nemeth)
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- Events -->
-        <div class="row">
-
-
-            <div class="col-lg-12">
-                <!-- Nodebreakfast -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/213579692/" target="_blank">Nodebreakfast - October, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        Come, have breakfast with us, unconference-style in the morning, at 8AM.
-                        There will be no speakers this time, just networking and get to know each other.
-                        You are encouraged to join any conversation, tell your story, ask for help.
-                    </div>
-                </div>
-
-            </div>
-        </div class="row">
-
-        <div class="row">
-            <div class="col-lg-12">
-                <!-- 2014.09/Sept-->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/200263902/" target="_blank">September, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>
-                                Isomorph Javascript (Gabor Soos)
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/watch?v=_LLfNoNJcDQ" target="_blank">Video</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>
-                                TDD and Mocking (Tamas Kokeny)
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/watch?v=PE8gFchwZUI" target="_blank">Video</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-12">
-                <!-- 2014.07/NodeBeer -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/193676242/" target="_blank">NodeBeer - July, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>Let's gather for beers! No official talks, just us, talking about every day
-                                challenges, problems. Time to get to know each other even better!
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-12">
-                <!-- 2014.05/Nodebp May -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/180666772/" target="_blank">May, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>Koa - next gen web framework <a href="https://twitter.com/nthgergo"
-                                                                title="Gergely Nemeth" target="_blank">(Gergely Nemeth)</a>
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=bKNqfbhv61I" target="_blank">Video</a></li>
-                                </ul>
-                            </li>
-                            <li>Open source at scale <a href="https://twitter.com/substack"
-                                                        title="James Halliday" target="_blank">(James Halliday aka substack)</a>
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=Vm3_F9Ln9lo" target="_blank">Video</a></li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-12">
-                <!-- 2014.04/Nodebp April -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/172548072/" target="_blank">April, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>Node.js with Tmux and Vim <a href="https://twitter.com/judikdavid" title="David Judik" target="_blank">(David Judik)</a></li>
-                            <li>Evolution of Node Streams <a href="https://twitter.com/dominictarr" title="Dominic Tarr" target="_blank">(Dominic Tarr)</a>
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=g5ewQEuXjsQ" target="_blank">Video</a></li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-12">
-                <!-- 2014.04/Nodebreakfast -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/176254372/" target="_blank">Nodebreakfast - April, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>Come, have breakfast with us, unconference-style in the morning, at 8AM.
-                                There will be no speakers this time, just networking and get to know each other.
-                                You are encouraged to join any conversation, tell your story, ask for help.
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-12">
-                <!-- 2014.03/Nodebreakfast -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/169156212/" target="_blank">Nodebreakfast - March, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>Come, have breakfast with us, unconference-style in the morning, at 8AM.
-                                There will be no speakers this time, just networking and get to know each other.
-                                You are encouraged to join any conversation, tell your story, ask for help.
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="col-lg-12">
-
-                <!-- 2014.03/NodeSchool -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://ti.to/nodebp/nodeschool201403" target="_blank">Nodeschool - March, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <p>
-                            Do you wanna start using node.js but have no idea how you should start?
-                            Come to nodebp's first nodeschool event, get
-                            started with nodejs and be part of the community.
-
-                        <hr/>
-
-                        On 8th, March, we are going to hold the first Hungarian Nodeschool
-                        workshop at the LogMeIn’s HQ. The event starts at 10AM
-                        (mentors will arrive at 8AM, so if you need help in configuring your
-                        system, come sooner!)
-                        </p>
-                    </div>
-                </div>
-
-                <!-- 2014.02/Nodebreakfast -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/164473542/" target="_blank">Nodebreakfast - February, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>This event will be an experiment - we will try to do an unconference in
-                                the morning, at 8AM. There will be no speakers this time,
-                                just networking, get to know each other, coffee and Cserpes Turorudi.
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-
-
-            <div class="col-lg-12">
-
-                <!-- 2014.02 -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/162288662/" target="_blank">February, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>ES6 deep dive <a href="https://twitter.com/domenic" title="Domenic Denicola" target="_blank">(Domenic Denicola)</a>
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=Q-ejVLibHVs" target="_blank">Video</a></li>
-                                </ul>
-                            </li>
-                            <li>Flat math code for speed (Guillaume Lathoud)
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=FxNNSvNDbW8" target="_blank">Video</a></li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-                <!-- 2014.01 -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/156892152/" target="_blank">January, 2014</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>Async 101 <a href="https://twitter.com/nthgergo" title="Gergely Nemeth" target="_blank">(Gergely
-                                Nemeth)</a>
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=a4AT2a665as" target="_blank">Video</a></li>
-                                    <li><a href="http://nodebp.github.io/2014-Jan-async101" target="_blank">Slides</a></li>
-                                </ul>
-                            </li>
-                            <li>Async 201 <a href="https://twitter.com/madbence" title="Bence Danyi" target="_blank">(Bence
-                                Danyi)</a>
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=7SS4U0eVhMs" target="_blank">Video</a></li>
-                                    <li><a href="http://nodebp.github.io/2014-Jan-async201" target="_blank">Slides</a></li>
-                                </ul>
-                            </li>
-                            <li>Building desktop applications with node.js
-                                <a href="https://twitter.com/_nec" title="Szabolcs Toth" target="_blank">(Szabolcs Toth)</a>
-                                <ul>
-                                    <li><a href="https://www.youtube.com/watch?v=TpF36F-xnTo" target="_blank">Video</a></li>
-                                    <li><a href="http://nodebp.github.io/2014-Jan-node-webkit" target="_blank">Slides</a></li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-                <!-- 2013.12 -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/152531792/" target="_blank">December, 2013</a>
-
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>From `node server.js &` to 100 requests/second - a brief history of Node.js at SSP
-                                <a href="https://twitter.com/rgabo" title="Ratky Gabor" target="_blank">(Ratky Gabor)</a>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/watch?v=HSvYBrynQHk" target="_blank">Video</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-                <!-- 2013.11 -->
-                <div class="panel panel-default">
-                    <div class="panel-heading">
-                        <a href="http://www.meetup.com/nodebp/events/145101952/" target="_blank">November, 2013</a>
-                    </div>
-                    <div class="panel-body">
-                        <ol>
-                            <li>NodeWHAT? - javascript szerveren, modulok, webszerver, package management <a
-                                    href="http://twitter.com/nthgergo" title="Gergely Nemeth" target="_blank">(Németh
-                                Gergely)</a>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/watch?v=16mb76vN6iQ" target="_blank">Video</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://nodebp.github.io/2013-Nov-nodeWHAT/" target="_blank">Slides</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>io.connect() - real-time chat <a href="http://twitter.com/oroce"
-                                                                 title="Robert Oroszi" target="_blank">(Oroszi Róbert)</a>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/watch?v=jPaQEJQH7jM" target="_blank">Video</a>
-                                    </li>
-                                    <li>
-                                        <a href="http://nodebp.github.io/2013-Nov-io.connect" target="_blank">Slides</a>
-                                    </li>
-                                </ul>
-                            </li>
-                            <li>Brewing with Node: sörfőzés Node.js-sel <a href="http://twitter.com/slashdotpeter"
-                                                                           title="Peter Marton" target="_blank">(Márton Péter)</a>
-                                <ul>
-                                    <li>
-                                        <a href="https://www.youtube.com/watch?v=Dk8Tj1P-Ugc" target="_blank">Video</a>
-                                    </li>
-                                    <li>
-                                        <a href="https://github.com/nodebp/2013-Nov-brewing" target="_blank">Slides</a>
-                                    </li>
-                                </ul>
-                            </li>
-                        </ol>
-                    </div>
-                </div>
-
-            </div>
-        </div>
+      </div>
 
     </div>
-</div>
+  </div>
 
-<!-- Upcoming events -->
-<div class="row">
+  <!-- Past events -->
+  <div class="row">
     <div class="col-lg-12">
 
-        <!-- Header -->
-        <div class="row" id="conferences">
-            <div class="col-lg-12">
-                <h2>Upcoming conferences</h2>
-                <hr/>
-            </div>
+      <!-- Header -->
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Past events</h2>
+          <hr/>
         </div>
-        <div class="row">
-            <div class="col-lg-12">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <p>April, 2015</p>
+      </div>
 
-              </div>
-              <div class="panel-body">
-                <ol class="list-unstyled">
-                  <li>
-                    <h3>
-                        <a href="http://craft-conf.com/2015">CraftConf - Budapest</a>
-                    </h3>
-                    <p class="lead">Software craftmanshift matters</p>
-                    <p class="small">2015-04-22 - 2015-04-24</p>
-                  </li>
+      <div class="row">
 
-                  <li>
-                    <h3>
-                        <a href="http://www.rossconf.io/">RossConf - Vienna</a>
-                    </h3>
-                    <p class="lead">Ruby Open Source Software</p>
-                    <p class="small">2015-04-25</p>
-                  </li>
-                </ol>
-              </div>
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/223620850/" target="_blank">August, 2015 - Barnight</a>
             </div>
+          </div>
 
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/222295550/" target="_blank">May, 2015</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/220751613/" target="_blank">May, 2015 - International
+                NodeSchool Day</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/222267216/" target="_blank">May, 2015 - Nodebreakfast</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/221619387/" target="_blank">April, 2015</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/220890613" target="_blank">March, 2015</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/220025799/" target="_blank">February, 2015</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/219292252/" target="_blank">January, 2015</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <!-- One-Shot Nodebots-->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/208743332/" target="_blank">November, 2014 - One-Shot Nodebots
+                Workshop</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/216529672/" target="_blank">November, 2014</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/210203192/" target="_blank">October, 2014</a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- Events -->
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- Nodebreakfast -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/213579692/" target="_blank">October, 2014 - Nodebreakfast</a>
+            </div>
           </div>
         </div>
+      </div>
 
-        <div class="row">
-            <div class="col-lg-12">
-            <div class="panel panel-default">
-              <div class="panel-heading">
-                <p>May, 2015</p>
-
-              </div>
-              <div class="panel-body">
-                <ol class="list-unstyled">
-                  <li>
-                    <h3>
-                        <a href="http://jsconfbp.com/">JSConfBP - Budapest</a>
-                    </h3>
-                    <p class="lead">JSConf Budapest is a JSConf family member 2-day non-profit for-the-community by-the-community conference about JavaScript in Budapest, Hungary.</p>
-                    <p class="small">2015-04-15 - 2015-05-15</p>
-                  </li>
-                </ol>
-              </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <!-- 2014.09/Sept-->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/200263902/" target="_blank">September, 2014</a>
             </div>
-
           </div>
         </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-lg-12">
+          <!-- 2014.07/NodeBeer -->
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <a href="http://www.meetup.com/nodebp/events/193676242/" target="_blank">July, 2014 - NodeBeer</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
     </div>
-</div>
 
-<!-- About -->
-<div class="row">
+    <div class="col-lg-12">
+      <!-- 2014.05/Nodebp May -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/180666772/" target="_blank">May, 2014</a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-12">
+      <!-- 2014.04/Nodebp April -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/172548072/" target="_blank">April, 2014</a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-12">
+      <!-- 2014.04/Nodebreakfast -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/176254372/" target="_blank">April, 2014 - Nodebreakfast</a>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="col-lg-12">
+      <!-- 2014.03/Nodebreakfast -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/169156212/" target="_blank">March, 2014 - Nodebreakfast</a>
+        </div>
+      </div>
+
+    </div>
+
     <div class="col-lg-12">
 
-        <h2>About Nodebp</h2>
-        <hr/>
-        <p>Nodebp was brought to life in November, 2013 in Budapest, Hungary. </p>
-        <blockquote>
-            Node.js for beginners, experts and everyone who loves javascript.
-            JIFASNIF - JavaScript is fun, and so Node is fun.
-        </blockquote>
-        <h4>Organised by:</h4>
+      <!-- 2014.03/NodeSchool -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://ti.to/nodebp/nodeschool201403" target="_blank">March, 2014 - Nodeschool</a>
+        </div>
+      </div>
 
-        <div class="row organizers">
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <a href="http://twitter.com/oroce" title="Robert Oroszi">
-                    <img src="https://s.gravatar.com/avatar/1e81e4ce8029433112b441419d3f431c?s=50" alt="oroce"
-                         class="img-circle">
-                    Robert Oroszi
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <a href="http://twitter.com/nthgergo" title="Gergely Nemeth">
-                    <img src="https://s.gravatar.com/avatar/29955e7f5ba4bd072e7c0e98e4a788fb?s=50" alt="nthgergo"
-                         class="img-circle">
-                    Gergely Nemeth
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <a href="http://twitter.com/slashdotpeter" title="Peter Marton">
-                    <img src="https://s.gravatar.com/avatar/1e2275ae49fccaa79d88fa6539492640?s=50"
-                         alt="slashdotpeter"
-                         class="img-circle">
-                    Peter Marton
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <a href="http://twitter.com/madbence" title="Bence Danyi">
-                    <img src="https://s.gravatar.com/avatar/dd14cd2413d2c7c5e02c14df879802b4?s=50" alt="madbence"
-                         class="img-circle">
-                    Bence Danyi
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <a href="http://twitter.com/EggDice" title="Tamas Kokeny">
-                    <img src="http://s.gravatar.com/avatar/8fe435abe39e56823c0a6ef3fff57f10?s=50" alt="EggDice"
-                         class="img-circle">
-                    Tamas Kokeny
-                </a>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-3">
-                <a href="http://twitter.com/judikdavid" title="David Judik">
-                    <img src="http://s.gravatar.com/avatar/61f8ef38f66f31761c61375bdedd4a5d?s=50" alt="judikdavid"
-                         class="img-circle">
-                    David Judik
-                </a>
-            </div>
+      <!-- 2014.02/Nodebreakfast -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/164473542/" target="_blank">February, 2014 - Nodebreakfast</a>
 
         </div>
+      </div>
 
     </div>
-</div>
 
-<div class="row">
+
+    <div class="col-lg-12">
+
+      <!-- 2014.02 -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/162288662/" target="_blank">February, 2014</a>
+        </div>
+      </div>
+
+      <!-- 2014.01 -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/156892152/" target="_blank">January, 2014</a>
+        </div>
+      </div>
+
+      <!-- 2013.12 -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/152531792/" target="_blank">December, 2013</a>
+        </div>
+      </div>
+
+      <!-- 2013.11 -->
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <a href="http://www.meetup.com/nodebp/events/145101952/" target="_blank">November, 2013</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- About -->
+  <div class="row">
+    <div class="col-lg-12">
+
+      <h2>About Nodebp</h2>
+      <hr/>
+      <p>Nodebp was brought to life in November, 2013 in Budapest, Hungary. </p>
+      <blockquote>
+        Node.js for beginners, experts and everyone who loves javascript.
+        JIFASNIF - JavaScript is fun, and so Node is fun.
+      </blockquote>
+      <h4>Organised by:</h4>
+
+      <div class="row organizers">
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="http://twitter.com/oroce" title="Robert Oroszi">
+            <img src="https://s.gravatar.com/avatar/1e81e4ce8029433112b441419d3f431c?s=50" alt="oroce"
+                 class="img-circle">
+            Robert Oroszi
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="http://twitter.com/nthgergo" title="Gergely Nemeth">
+            <img src="https://s.gravatar.com/avatar/29955e7f5ba4bd072e7c0e98e4a788fb?s=50" alt="nthgergo"
+                 class="img-circle">
+            Gergely Nemeth
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="http://twitter.com/slashdotpeter" title="Peter Marton">
+            <img src="https://s.gravatar.com/avatar/1e2275ae49fccaa79d88fa6539492640?s=50"
+                 alt="slashdotpeter"
+                 class="img-circle">
+            Peter Marton
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="http://twitter.com/madbence" title="Bence Danyi">
+            <img src="https://s.gravatar.com/avatar/dd14cd2413d2c7c5e02c14df879802b4?s=50" alt="madbence"
+                 class="img-circle">
+            Bence Danyi
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="http://twitter.com/EggDice" title="Tamas Kokeny">
+            <img src="http://s.gravatar.com/avatar/8fe435abe39e56823c0a6ef3fff57f10?s=50" alt="EggDice"
+                 class="img-circle">
+            Tamas Kokeny
+          </a>
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-3">
+          <a href="http://twitter.com/judikdavid" title="David Judik">
+            <img src="http://s.gravatar.com/avatar/61f8ef38f66f31761c61375bdedd4a5d?s=50" alt="judikdavid"
+                 class="img-circle">
+            David Judik
+          </a>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+  <div class="row">
     <hr/>
     <div class="col-md-6">
-        <h4>Sponsors</h4>
-        <ul>
-            <li>JetBrains</li>
-            <li>LogMeIn</li>
-            <li>Secret Sauce Partners</li>
-            <li>Prezi</li>
-            <li>Purpose Industries</li>
-        </ul>
+      <h4>Sponsors</h4>
+      <ul>
+        <li>JetBrains</li>
+        <li>LogMeIn</li>
+        <li>Secret Sauce Partners</li>
+        <li>Prezi</li>
+        <li>Purpose Industries</li>
+      </ul>
     </div>
     <div class="col-md-6">
-        <h4>Job postings</h4>
+      <h4>Job postings</h4>
 
-        <ul>
-          <li><a href="postings/risingstack.html">JavaScript Developer @ RisingStack</a></li>
-        </ul>
+      <ul>
+        <li><a href="postings/risingstack.html">JavaScript Developer @ RisingStack</a></li>
+      </ul>
 
-        <hr/>
+      <hr/>
 
-        <h5>Interested in seeing your posting here? Drop us a few lines: <a
-                href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%69%6E%66%6F%40%6E%6F%64%65%62%70%2E%63%6F%6D">
-            &#105;&#110;&#102;&#111;&#064;&#110;&#111;&#100;&#101;&#098;&#112;&#046;&#099;&#111;&#109;
-        </a></h5>
+      <h5>Interested in seeing your posting here? Drop us a few lines: <a
+        href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;%69%6E%66%6F%40%6E%6F%64%65%62%70%2E%63%6F%6D">
+        &#105;&#110;&#102;&#111;&#064;&#110;&#111;&#100;&#101;&#098;&#112;&#046;&#099;&#111;&#109;
+      </a></h5>
     </div>
-</div>
+  </div>
 
-<!-- Code of Conduct -->
-<div class="row">
+  <!-- Code of Conduct -->
+  <div class="row">
     <div class="col-lg-12">
 
-        <h2>Code of Conduct</h2>
-        <hr/>
-        <h5>All attendees, speakers, sponsors and volunteers at Nodebp are required to agree with the following
-            code of conduct. Organizers will enforce this code throughout the event.</h5>
+      <h2>Code of Conduct</h2>
+      <hr/>
+      <h5>All attendees, speakers, sponsors and volunteers at Nodebp are required to agree with the following
+        code of conduct. Organizers will enforce this code throughout the event.</h5>
 
-        <p>Nodebp is dedicated to providing a harassment-free event experience for everyone,
-            regardless of gender, sexual orientation, disability, physical appearance,
-            body size, race, or religion. We do not tolerate harassment of event
-            participants in any form. Sexual language and imagery is not appropriate for
-            any event venue, including talks and workshops. Event participants
-            violating these rules may be sanctioned or expelled from the events.</p>
+      <p>Nodebp is dedicated to providing a harassment-free event experience for everyone,
+        regardless of gender, sexual orientation, disability, physical appearance,
+        body size, race, or religion. We do not tolerate harassment of event
+        participants in any form. Sexual language and imagery is not appropriate for
+        any event venue, including talks and workshops. Event participants
+        violating these rules may be sanctioned or expelled from the events.</p>
 
     </div>
-</div>
+  </div>
 
-<!-- Footer -->
-<div class="row">
+  <!-- Footer -->
+  <div class="row">
     <div class="col-lg-12">
 
-        <hr/>
-        <footer>
-            <p>Nodebp, 2015 | <a href="https://twitter.com/nodebp" class="twitter-follow-button" data-width="300px"
-                                 data-show-count="false">Follow @nodebp</a></p>
-        </footer>
-        <br/><br/>
+      <hr/>
+      <footer>
+        <p>Nodebp, 2015 | <a href="https://twitter.com/nodebp" class="twitter-follow-button" data-width="300px"
+                             data-show-count="false">Follow @nodebp</a></p>
+      </footer>
+      <br/><br/>
     </div>
+  </div>
+
 </div>
 
 </div>
+
 
 <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
 <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
 <script>!function (d, s, id) {
-    var js, fjs = d.getElementsByTagName(s)[0];
-    if (!d.getElementById(id)) {
-        js = d.createElement(s);
-        js.id = id;
-        js.src = "http://platform.twitter.com/widgets.js";
-        fjs.parentNode.insertBefore(js, fjs);
-    }
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (!d.getElementById(id)) {
+    js = d.createElement(s);
+    js.id = id;
+    js.src = "http://platform.twitter.com/widgets.js";
+    fjs.parentNode.insertBefore(js, fjs);
+  }
 }(document, "script", "twitter-wjs");</script>
 <script>
-    (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-            (i[r].q = i[r].q || []).push(arguments)
-        }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-                m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+  (function (i, s, o, g, r, a, m) {
+    i['GoogleAnalyticsObject'] = r;
+    i[r] = i[r] || function () {
+      (i[r].q = i[r].q || []).push(arguments)
+    }, i[r].l = 1 * new Date();
+    a = s.createElement(o),
+      m = s.getElementsByTagName(o)[0];
+    a.async = 1;
+    a.src = g;
+    m.parentNode.insertBefore(a, m)
+  })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-    ga('create', 'UA-47284597-1', 'nodebp.com');
-    ga('send', 'pageview');
+  ga('create', 'UA-47284597-1', 'nodebp.com');
+  ga('send', 'pageview');
 
 </script>
 </body>
